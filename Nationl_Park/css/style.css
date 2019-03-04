@@ -2,13 +2,85 @@
 /* header & nav */
 
 header {
-
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
 }
 
 header .logo, header nav {
+  
+  
+  
 
 }
 
+.navigation{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 auto;
+  
+  
+}
+.aboutbtn{
+width: 90px;
+margin: 0 auto;
+}
+
+.aboutrow{
+  display: flex;
+  flex-direction: row;
+}
+.aboutcol{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.feature{
+  display: flex;
+}
+.feat-right{
+  display: flex;
+  width: 6  0%;
+  justify-content: end;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  
+  
+}
+
+.feat-left{
+  display: flex;
+  margin: 0 auto;
+  float: left;
+  flex-grow: 2;
+
+}
+.contactbtn{
+  width: 80px;
+  margin: 0 auto;
+  align-self: center; 
+
+}
+.contactus{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.footernav{
+  list-style:none;
+}
+.container{
+
+}
 
 .container .aboutrow {
 
@@ -31,20 +103,20 @@ header .logo, header nav {
 /* footer */
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-col{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
 
 }
 
-.footer-left {
-
-}
-
-.footer-left .footer-col {
-
-}
-
-.footer-right {
-
-}
 
 /* ======+++++======++++=====+++=== */
 /* ======+++++======++++=====+++=== */
@@ -87,11 +159,13 @@ nav ul li {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 0.8em;
+  
 }
 
 .navigation li:hover a {
   color: #d0a064;
   transition: all 0.2s;
+  text-decoration: none;
 }
 
 .hero-cont {
@@ -129,6 +203,7 @@ nav ul li {
   padding: 5px 15px;
   text-decoration:none;
   transition: all 0.2s;
+  
 }
 
 .aboutbtn:hover, .contactbtn:hover {
